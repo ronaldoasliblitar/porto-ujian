@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mambaul Hariadi Ernawan — Portofolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#home" class="brand">
+      <span class="brand-badge">MH</span>
+      <span>
+        <span class="brand-name">Mambaul H. Ernawan</span>
+        <span class="brand-sub">XI TJKT 2 &middot; No. Absen 06</span>
+      </span>
+    </a>
+
+    <button class="navbar-toggler d-lg-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-label="Buka menu" style="color:var(--text);">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+
+    <div class="d-none d-lg-flex align-items-center" style="gap:8px;">
+      <div class="nav-links" id="navLinksDesktop">
+        <a href="#home" data-nav="home">Home</a>
+        <a href="#about" data-nav="about">Profil</a>
+        <a href="#skill" data-nav="skill">Skill</a>
+        <a href="#project" data-nav="project">Proyek</a>
+        <a href="#contact" data-nav="contact">Kontak</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Ganti tema terang/gelap">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="mobileNav" style="background:var(--surface); color:var(--text); width:78%;">
+  <div class="offcanvas-header">
+    <span class="brand-name">Menu</span>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Tutup"></button>
+  </div>
+  <div class="offcanvas-body d-flex flex-column gap-2">
+    <a href="#home" class="nav-links-mobile" data-nav="home" style="color:var(--text); padding:10px 4px; font-weight:500;">Home</a>
+    <a href="#about" class="nav-links-mobile" data-nav="about" style="color:var(--text); padding:10px 4px; font-weight:500;">Profil</a>
+    <a href="#skill" class="nav-links-mobile" data-nav="skill" style="color:var(--text); padding:10px 4px; font-weight:500;">Skill</a>
+    <a href="#project" class="nav-links-mobile" data-nav="project" style="color:var(--text); padding:10px 4px; font-weight:500;">Proyek</a>
+    <a href="#contact" class="nav-links-mobile" data-nav="contact" style="color:var(--text); padding:10px 4px; font-weight:500;">Kontak</a>
+    <button class="theme-toggle mt-3" id="themeToggleMobile" aria-label="Ganti tema terang/gelap">
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+  </div>
+</div>
+
+<section id="home" class="hero-section">
+  <div class="hero-grid"></div>
+  <div class="container-narrow hero-flex">
+    <div class="hero-copy">
+      <span class="hero-eyebrow"><span class="dot"></span> Siap magang &amp; kolaborasi proyek jaringan/web</span>
+      <h1>Mambaul Hariadi Ernawan
+        <span class="line2">Siswa TJKT yang membangun jaringan di kelas, dan strategi di lapangan virtual.</span>
+      </h1>
+      <p>Kelas XI TJKT 2, fokus di jaringan komputer dan pengembangan web dasar. Di luar kelas, saya menekuni eFootball dan pernah membawa tim sendiri hingga Division 1.</p>
+      <div class="hero-cta">
+        <a href="#project" class="btn-brand">Lihat Proyek Saya</a>
+        <a href="#contact" class="btn-outline-brand">Hubungi Saya</a>
+      </div>
+    </div>
+    <div class="jersey-wrap">
+      <div class="jersey-card">
+        <div class="jersey-stripe"></div>
+        <img src="nawok.jpg" alt="Foto Mambaul Hariadi Ernawan" class="jersey-photo">
+        <div class="jersey-role">MAMBAUL H. ERNAWAN<br>TJKT &middot; Network &amp; Web</div>
+        <div class="jersey-tag"><span>Divisi eFootball</span> <b>Division 1</b></div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>Gulir ke bawah</span><span class="stick"></span></div>
+</section>
+
+<section id="about">
+  <div class="container-narrow">
+    <div class="section-head reveal">
+      <span class="section-tag">Profil</span>
+      <h2>Mengenal saya lebih dekat</h2>
+      <p>Sedikit cerita tentang latar belakang, kelas, dan hal yang saya sukai di luar pelajaran.</p>
+    </div>
+
+    <div class="about-flex">
+      <div class="about-visual reveal">
+        <div class="avatar-ring">
+          <div class="avatar-inner">MH</div>
+        </div>
+        <div class="achievement-pill">
+          <span class="medal">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M9 13.5 7 22l5-3 5 3-2-8.5"/></svg>
+          </span>
+          <span class="txt"><b>Division 1</b>Pencapaian tertinggi di eFootball, hasil latihan rutin &amp; membaca strategi lawan.</span>
+        </div>
+      </div>
+
+      <div class="about-body reveal">
+        <p>Saya Mambaul Hariadi Ernawan, siswa kelas XI TJKT 2 dengan nomor absen 06. Jurusan Teknik Jaringan Komputer dan Telekomunikasi mengajarkan saya cara berpikir sistematis: memahami bagaimana perangkat saling terhubung, mendiagnosis masalah, dan menata sesuatu agar berjalan rapi — pola pikir yang sama saya pakai saat menyusun website ini.</p>
+        <p>Di waktu luang, eFootball jadi tempat saya melatih pengambilan keputusan cepat dan konsistensi. Perjalanan dari divisi bawah hingga mencapai Division 1 mengajarkan bahwa hasil baik datang dari latihan yang tidak putus, bukan sekali coba langsung berhasil — prinsip yang sama saya bawa saat belajar konfigurasi jaringan maupun coding.</p>
+
+        <div class="fact-grid">
+          <div class="fact-item"><span>Kelas</span><strong>XI TJKT 2</strong></div>
+          <div class="fact-item"><span>No. Absen</span><strong>06</strong></div>
+          <div class="fact-item"><span>Jurusan</span><strong>Teknik Jaringan Komputer &amp; Telekomunikasi</strong></div>
+          <div class="fact-item"><span>Hobi</span><strong>eFootball (Division 1)</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skill" style="background:var(--bg-alt);">
+  <div class="container-narrow">
+    <div class="section-head reveal">
+      <span class="section-tag">Skill</span>
+      <h2>Kemampuan teknis</h2>
+      <p>Dua area yang sedang saya dalami: jaringan &amp; infrastruktur, serta pengembangan web dasar.</p>
+    </div>
+
+    <div class="skill-cols">
+      <div class="skill-card reveal">
+        <h3><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="14" width="20" height="4" rx="1"/><path d="M6 14v-3M10 14v-5M14 14v-3M18 14v-6"/></svg></span>Jaringan &amp; Infrastruktur</h3>
+
+        <div class="skill-row">
+          <div class="label"><b>Subnetting &amp; IP Addressing</b><span>90%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-percent="90"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="label"><b>Konfigurasi Router &amp; Switch</b><span>85%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-percent="85"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="label"><b>Cisco Packet Tracer</b><span>82%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-percent="82"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="label"><b>Instalasi Kabel (UTP/Fiber)</b><span>85%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-percent="85"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="label"><b>Administrasi Server Linux Dasar</b><span>68%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-percent="68"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <h3><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></span>Pengembangan Web</h3>
+
+        <div class="skill-row">
+          <div class="label"><b>HTML5</b><span>90%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-percent="90"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="label"><b>CSS3 &amp; Bootstrap</b><span>85%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-percent="85"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="label"><b>JavaScript Dasar</b><span>72%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-percent="72"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="label"><b>Git &amp; Version Control</b><span>60%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-percent="60"></div></div>
+        </div>
+        <div class="skill-row">
+          <div class="label"><b>Analisis &amp; Strategi (eFootball)</b><span>95%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-percent="95"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="project">
+  <div class="container-narrow">
+    <div class="section-head reveal">
+      <span class="section-tag">Proyek</span>
+      <h2>Hal yang sudah saya kerjakan</h2>
+      <p>Gabungan tugas sekolah, latihan mandiri, dan proyek kecil seputar jaringan, web, dan hobi.</p>
+    </div>
+
+    <div class="filter-bar reveal">
+      <button class="filter-btn active" data-filter="all">Semua</button>
+      <button class="filter-btn" data-filter="jaringan">Jaringan</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+      <button class="filter-btn" data-filter="lainnya">Lainnya</button>
+    </div>
+
+    <div class="project-grid" id="projectGrid">
+
+      <div class="project-card reveal" data-category="web">
+        <span class="project-cat">Web</span>
+        <h4>Website Portofolio Pribadi</h4>
+        <p>Situs ini sendiri — dibangun untuk menampilkan profil, skill, dan proyek dengan tampilan responsif dan beberapa fitur interaktif.</p>
+        <div class="tech-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span></div>
+      </div>
+
+      <div class="project-card reveal" data-category="jaringan">
+        <span class="project-cat">Jaringan</span>
+        <h4>Simulasi Jaringan VLAN Sekolah</h4>
+        <p>Merancang dan menguji segmentasi VLAN antar-ruang menggunakan simulasi router dan switch untuk latihan praktikum.</p>
+        <div class="tech-tags"><span>Cisco Packet Tracer</span><span>VLAN</span><span>Routing</span></div>
+      </div>
+
+      <div class="project-card reveal" data-category="jaringan">
+        <span class="project-cat">Jaringan</span>
+        <h4>Konfigurasi Mikrotik untuk Warnet Mini</h4>
+        <p>Praktik pengaturan bandwidth management dan hotspot login sederhana pada perangkat Mikrotik untuk skenario warnet kecil.</p>
+        <div class="tech-tags"><span>Mikrotik</span><span>Bandwidth Management</span><span>Hotspot</span></div>
+      </div>
+
+      <div class="project-card reveal" data-category="web">
+        <span class="project-cat">Web</span>
+        <h4>Landing Page UMKM Lokal</h4>
+        <p>Halaman promosi sederhana untuk usaha kecil, berisi katalog produk, informasi kontak, dan tombol pemesanan via WhatsApp.</p>
+        <div class="tech-tags"><span>HTML</span><span>Bootstrap</span><span>Responsive</span></div>
+      </div>
+
+      <div class="project-card reveal" data-category="jaringan">
+        <span class="project-cat">Jaringan</span>
+        <h4>Troubleshooting Jaringan LAN Lab Komputer</h4>
+        <p>Mengidentifikasi dan memperbaiki gangguan koneksi pada jaringan LAN laboratorium, mulai dari kabel hingga konfigurasi IP.</p>
+        <div class="tech-tags"><span>LAN</span><span>Troubleshooting</span><span>IP Addressing</span></div>
+      </div>
+
+      <div class="project-card reveal" data-category="lainnya">
+        <span class="project-cat">Lainnya</span>
+        <h4>Dashboard Statistik eFootball</h4>
+        <p>Rekap statistik pertandingan pribadi — rasio menang, formasi favorit, dan performa pemain — untuk melacak progres menuju Division 1.</p>
+        <div class="tech-tags"><span>Data Pribadi</span><span>Spreadsheet</span><span>Analisis</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="background:var(--bg-alt);">
+  <div class="container-narrow">
+    <div class="section-head reveal">
+      <span class="section-tag">Kontak</span>
+      <h2>Hubungi saya ya bang</h2>
+      <p>siap joki cisco, efootball karna saya jago bangettt njirrrrr.</p>
+    </div>
+
+    <div class="contact-flex">
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="mb-3">
+          <label class="form-label" for="fName">Nama</label>
+          <input type="text" class="form-control" id="fName" placeholder="Jenengmu" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="fEmail">Email</label>
+          <input type="email" class="form-control" id="fEmail" placeholder="nama@email.com" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="fMsg">Pesan</label>
+          <textarea class="form-control" id="fMsg" rows="4" placeholder="Tulis pesan singkat..." required></textarea>
+        </div>
+        <button type="submit" class="btn-brand w-100" style="border-radius:10px;">Kirim Pesan</button>
+        <div id="formSuccess" class="mt-3" style="font-size:.85rem; color:var(--accent);">Pesan tersimpan secara lokal (demo). Untuk balasan sungguhan, silakan hubungi lewat WhatsApp atau Email di samping.</div>
+        <p class="form-note">Catatan: formulir ini bersifat demo statis dan belum terhubung ke server pengiriman email.</p>
+      </form>
+
+      <div class="contact-side">
+        <a class="contact-link reveal" href="mailto:cristianoronaldooficil@email.com">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></span>
+          <span>Email<br><small>cristianoronaldooficil@email.com</small></span>
+        </a>
+        <a class="contact-link reveal" href="https://wa.me/6282228450130" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></span>
+          <span>WhatsApp<br><small>+6282228450130</small></span>
+        </a>
+        <a class="contact-link reveal" href="https://instagram.com/" target="_blank" rel="noopener">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg></span>
+          <span>Instagram<br><small>@m.mmbaul</small></span>
+        </a>
+        <a class="contact-link reveal" href="#">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3.13a4 4 0 0 1 0 7.75"/><circle cx="9" cy="7" r="4"/><path d="M2 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 4 4v2"/></svg></span>
+          <span>Sekolah<br><small>XI TJKT 2 &middot; No. Absen 06</small></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container-narrow">&copy; <span id="year"></span> VvanWRLD.</div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="Kembali ke atas">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
